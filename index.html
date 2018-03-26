@@ -22,6 +22,10 @@
           <input type="text" id="favFood" class="form-control">
         </div>
         <div class="form-control">
+          <label for="favDrink">What is your favorite drink?</label>
+          <input type="text" id="favDrink" class="form-control">
+        </div>
+        <div class="form-control">
           <label for="favColor">What is your favorite color?</label>
           <input type="text" id="favColor" class="form-control">
         </div>
@@ -32,8 +36,19 @@
         </br>
         <button type="submit" class="btn btn-info btn-lg btn-block">Submit</button>
       </form>
-      <div class="form-control" id="user-output">
+      <h3>These are your results:</h3>
+      <div class="form-control well" id="user-output">
 
+      </div>
+      </br>
+      <h3>These are your results in reverse:</h3>
+      <div class="form-control well" id="user-output-reversed">
+
+      </div>
+      <h3>These are your 1st, 2nd, and 3rd answers:</h3>
+      <div class="form-control well">
+        <ul id="user-output-three-elements">
+        </ul>
       </div>
     </div>
   </body>
